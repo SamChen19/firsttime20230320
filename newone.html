@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title><link rel="stylesheet" href="css/main.css">
 </head>
+
+<style>
+    #radio{
+        color: rgb(98, 0, 190);
+    }
+</style>
+
 <body>
     <form method="post" action="https://book.niceinfos.com/frontend/assets/html_contact_form/api.php">
+        <div>
+            <label for="">姓名</label>
+            <input type="fullname" name="account">
+        </div>
         <div>
             <div>
                 <label for="gender">性別</label>
@@ -59,46 +70,5 @@
         </div>
     </form>
 
-    
-    <style>
-        div{
-            color: blue;
-        }
-    </style>
-    <div>no.1</div>
-    <span>no.2</span>
-    <span>
-        <div>no.3</div>
-    </span>
-
-
-    <style>
-        span{
-            color: blue;
-        }
-    </style>
-    <div>no.1</div>
-    <span>no.2</span>
-    <span>
-        <div>no.3</div>
-    </span>
-
-    <style>
-        div{
-            color: blueviolet !important
-        }
-        div{
-            color: burlywood;
-        }
-        span>div{
-            color: brown;
-        }
-    </style>
-
-    <div>no.1</div>
-
-    <span>
-        <div>no.2</div>
-    </span>
 </body>
 </html>
